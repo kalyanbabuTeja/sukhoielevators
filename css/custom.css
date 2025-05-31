@@ -144,3 +144,35 @@ header .navbar {
     transition: .3s;
     top: 34px !important;
 }
+
+a.d-inline-block.fs-20.fw-500.text-dark-gray.text-dark-gray-hover.mb-5px.ls-minus-05px {
+    font-weight: 700 !important;
+    font-family: system-ui !important;
+    font-size: 22px;
+    margin: 0px !important;
+}
+.ps-50px.pe-50px.pt-20px.pb-30px.xl-ps-20px.xl-pe-20px.text-center.progress-bar-style-01, .border-top.border-color-extra-medium-gray.pt-15px.pb-20px.text-center {
+    padding: 10px 0px !important;
+}
+
+.ps-50px.pe-50px.pt-20px.pb-30px.xl-ps-20px.xl-pe-20px.text-center.progress-bar-style-01:hover, .border-top.border-color-extra-medium-gray.pt-15px.pb-20px.text-center:hover {
+    background: #FF5722;
+    color: #fff !important;
+}
+
+a.d-inline-block.fs-20.fw-500.text-dark-gray.text-dark-gray-hover.mb-5px.ls-minus-05px:hover {
+    background: #FF5722;
+    color: #fff !important;
+}
+
+.ps-50px.pe-50px.pt-20px.pb-30px.xl-ps-20px.xl-pe-20px.text-center.progress-bar-style-01:hover{
+    background: #FF5722;
+    color: #fff !important;
+}
+
+
+.ps-50px.pe-50px.pt-20px.pb-30px.xl-ps-20px.xl-pe-20px.text-center.progress-bar-style-01:hover{
+  a{
+    color: #fff !important;
+  }
+}
