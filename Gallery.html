@@ -1,0 +1,857 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <title>SUKHOI ELEVATORS</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content="SUKHOI ELEVATORS, SUKHOI ELEVATORS, SUKHOI ELEVATORS">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="favicone.png">
+        <link rel="apple-touch-icon" href="favicone.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicone.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicone.png">
+        <!-- google fonts preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- slider revolution CSS files -->
+        <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+        <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" href="css/vendors.min.css" />
+        <link rel="stylesheet" href="css/icon.min.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+         <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/responsive.min.css" />
+        <link rel="stylesheet" href="demos/corporate/corporate.css" />
+       <style>
+
+        /* Modal Styles */
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease;
+    display: flex
+;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+  width:90%;
+  max-height: 200px;
+  object-fit: cover;
+  
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.book-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 123, 255, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 123, 255, 0.7);
+  }
+}
+
+.book-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  animation: pulse 1.5s infinite;
+  
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+@media only screen and (max-width: 768px) {
+	p.blink-tagline {
+    display: none;
+  }
+  div#in-mobile {
+    width: 99%;
+}
+}
+       .page-header .video-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.page-header {
+    width: 100%;
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    background: #161619;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    filter: blur(0px);
+    transition-delay: 0.8s;
+}
+.page-header .inner {
+    width: 100%;
+    padding-left: 0px;
+    position: relative;
+    z-index: 2;
+    margin-top: 150px;
+}
+.slider-content b {
+    color: #fff;
+    font-size: 24px;
+}
+.page-header .inner h1 {
+   color: #fff;
+    font-weight: 600;
+    font-size: 4vw;
+    font-family: Roboto, sans-serif;
+}
+.slider-content p {
+    color: #fff;
+}
+.slider-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    color: #0d1820;
+    -webkit-transition: .6s;
+    transition: .6s;
+    border-radius: 5px;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.page-header .video-bg video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+       </style>
+       <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+
+
+    </head>
+
+    <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#242E45">
+        <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <img src="logo_1.png" alt="Welcome" class="modal-image">
+      <h2>Welcome to Sukhoi Elevators!</h2>
+      <p>Your journey begins here - Book your dream Lift Elevators now!</p>
+
+      <!-- <h5>We offer top-quality lift and elevator solutions for residential and commercial buildings.</h5>
+      <h5>Explore our services, projects, and contact us for quotes.</h5> -->
+	  <ul class="highlights">
+		<li>We offer top-quality lift and elevator solutions for residential and commercial buildings.</li>
+		<li>Explore our services, projects, and contact us for quotes.</li>
+	  </ul>
+	  <a href="tel:+919542312921" class="book-btn">Book Now</a>
+    </div>
+  </div>
+ <a href="https://wa.me/+919542312921" target="_blank" id="whatsapp-icon" class="floating-icon">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+  </a>
+
+  <!-- Call Icon -->
+  <a href="tel:+919542312921" id="call-icon" class="floating-icon">
+    <!-- <img src="../wp-content/images/phone--v1.png" alt="Call"> -->
+	<img src="phone--v1.png" alt="phone">
+  </a>
+        <div class="box-layout">
+            <!-- start header -->
+             <header class="header-with-topbar">
+            <!-- start header top bar -->
+            <div class="header-top-bar top-bar-dark bg-very-light-gray" style="top: 0px;">
+                <div class="container-fluid">
+                    <div class="row h-45px xs-h-auto align-items-center m-0 xs-pt-5px xs-pb-5px">
+                        <div class="col-lg-6 col-md-7 text-center text-md-start xs-px-0">
+                            <div class="fs-15 text-dark-gray fw-500">Introducing The <b>World’s No.1 Home Elevators</b> in India !</div>
+                             <!-- <a href="demo-accounting-contact.html" class="text-dark-gray text-decoration-line-bottom fw-600">Contact now</a> -->
+                        </div>
+                        <div class="col-lg-6 col-md-5 text-end d-none d-md-flex">
+                            <div class="widget fs-15 fw-500 me-35px lg-me-25px md-me-0 text-dark-gray"><a href="tel:+919542312921"><i class="feather icon-feather-phone-call"></i>+91 95423 12921</a></div>
+                            <div class="widget fs-15 fw-500 text-dark-gray d-none d-lg-inline-block"><i class="feather icon-feather-map-pin"></i>Uppal, Hyderabad, Telangana.</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header top bar -->
+            <!-- start navigation -->
+            
+            <!-- end navigation -->
+        </header>
+            <header>
+                <!-- start navigation -->
+                <nav class="navbar navbar-expand-lg header-light bg-white disable-fixed">
+                    <div class="container-fluid">
+                        <div class="col-auto col-xl-3 col-lg-2 me-lg-0 me-auto">
+                            <a class="navbar-brand" href="index.html">
+                               <img src="logo_1.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-auto col-xl-6 col-lg-8 menu-order position-static">
+                            <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="index.html" class="nav-link"> <!-- https://feathericons.dev/?search=home&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+  <polyline points="9 22 9 12 15 12 15 22" />
+</svg>
+ Home</a></li>
+                                    <li class="nav-item"><a href="About.html" class="nav-link"> <!-- https://feathericons.dev/?search=user&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+  <circle cx="12" cy="7" r="4" />
+</svg>
+ About</a></li>
+                                    <li class="nav-item dropdown dropdown-with-icon-style02">
+                                        <a href="Services.html" class="nav-link"> <!-- https://feathericons.dev/?search=settings&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <circle cx="12" cy="12" r="3" />
+  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+</svg>
+ Services <!-- https://feathericons.dev/?search=chevrons-down&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <polyline points="7 13 12 18 17 13" />
+  <polyline points="7 6 12 11 17 6" />
+</svg>
+</a>
+                                        <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            
+                                            <li><a href="Services.html"> Passenger Lifts</a></li>
+                                            <li><a href="Services.html"> Structure Lifts</a></li>
+                                            <li><a href="Services.html"> Home Lift</a></li>
+                                            <li><a href="Services.html"> Hydraulic Lifts</a></li>
+                                            <!-- <li><a href="demo-corporate-services-details.html"><i class="fa-solid fa-tank-water"></i> Hydralic Lift</a></li> -->
+                                            <li><a href="Services.html"> Goods Lifts</a></li>
+                                            <!-- <li><a href="demo-corporate-services-details.html"><i class="fa-solid fa-person-carry-box"></i> Goods Lift</a></li> -->
+                                            <li><a href="Services.html"> Hospital Lifts</a></li>
+
+                                            <li><a href="Services.html"> Capsule Lifts</a></li>
+                                            <li><a href="Services.html"> Customized Lifts</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="Gallery.html" class="nav-link"><!-- https://feathericons.dev/?search=image&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <rect height="18" rx="2" ry="2" width="18" x="3" y="3" />
+  <circle cx="8.5" cy="8.5" r="1.5" />
+  <polyline points="21 15 16 10 5 21" />
+</svg>
+ Gallery</a></li>
+                                    <!-- <li class="nav-item"><a href="demo-corporate-pricing.html" class="nav-link">Pricing</a></li>
+                                    <li class="nav-item"><a href="demo-corporate-blog.html" class="nav-link">Blog</a></li> -->
+                                    <li class="nav-item"><a href="Contact.html" class="nav-link"><!-- https://feathericons.dev/?search=map-pin&iconset=feather -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+  <circle cx="12" cy="10" r="3" />
+</svg>
+Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto col-xl-3 col-lg-2 text-end md-pe-0">
+                            <div class="header-icon">
+                                <div class="header-search-icon icon">
+                                    <a href="#" class="search-form-icon header-search-form"><i class="feather icon-feather-search"></i></a>
+                                    <!-- start search input -->
+                                    <div class="search-form-wrapper">
+                                        <button title="Close" type="button" class="search-close">×</button>
+                                        <form id="search-form" role="search" method="get" class="search-form text-left" action="#">
+                                            <div class="search-form-box">
+                                                <h2 class="text-dark-gray text-center fw-600 mb-4 ls-minus-1px">What are you looking for?</h2>
+                                                <input class="search-input" id="search-form-input5e219ef164995" placeholder="Enter your keywords..." name="s" value="" type="text" autocomplete="off">
+                                                <button type="submit" class="search-button">
+                                                    <i class="feather icon-feather-search" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- end search input -->
+                                </div>
+                                <div class="header-button ms-20px d-none d-xl-inline-block">
+                                    <a href="Broucher_Updated.pdf" target="_blank" class="btn btn-rounded btn-transparent-light-gray border-1 btn-medium btn-switch-text text-transform-none" style="
+    background: linear-gradient(220deg, #FF5722, #FF9800);
+color: #fff;box-shadow: 1px 2px 2px #ccc;">
+                                        <span>
+                                            <span class="btn-double-text fw-600" data-text="Download Broucher">Download Broucher</span>
+                                            <span><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- end navigation -->
+            </header>
+            <!-- end header -->
+            <!-- start slider -->
+
+
+
+
+            
+            
+            <!-- end slider -->
+            <!-- start section -->
+           <section class="top-space-margin page-title-big-typography border-radius-6px lg-border-radius-0px p-0" data-parallax-background-ratio="0.5" style="background-image: url(images/demo-corporate-about-title-bg.jpg)">
+                <div class="opacity-extra-medium bg-blue-whale"></div>
+                <div class="container">
+                    <div class="row align-items-center justify-content-center small-screen">
+                        <div class="col-lg-8 position-relative text-center page-title-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <h1 class="m-auto text-white text-shadow-double-large fw-600 ls-minus-2px">Gallery</h1>
+                        </div>
+                        <div class="down-section text-center" data-anime='{ "translateY": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <a href="#down-section" class="section-link">
+                                <div class="text-white">
+                                    <i class="feather icon-feather-chevron-down icon-very-medium"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<section class="background-position-left-top background-no-repeat-y background-size-auto-100 pt-5 md-pt-0" style="background-image: url('images/demo-charity-causes-bg.jpg')">
+            <div class="container">  
+                <div class="row mb-60px md-mb-40px">
+                    <div class="col">
+                        <ul class="image-gallery-style-02 gallery-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;:0, &quot;staggervalue&quot;: 200, &quot;easing&quot;: &quot;easeOutQuad&quot; }" style="position: relative; height: 1039.73px;">
+                            <li class="grid-sizer"></li>
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 0%; top: 0px; transition: none;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                                        <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                            <div class="atropos-inner" data-atropos-offset="3" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/1.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/1.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 33.3291%; top: 0px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                                        <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                            <div class="atropos-inner" data-atropos-offset="3" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/2.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/2.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 66.6582%; top: 0px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                                        <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                            <div class="atropos-inner" data-atropos-offset="3" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/3.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/3.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 0%; top: 346.578px; transition: none;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/5.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/5.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 33.3291%; top: 346.578px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/6.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/6.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 66.6582%; top: 346.578px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/7.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/7.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 0%; top: 693.156px; transition: none;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/8.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/8.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 33.3291%; top: 693.156px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/9.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/9.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <li class="grid-item transition-inner-all z-index-1" style="position: absolute; left: 66.6582%; top: 693.156px; transition-behavior: normal; transition-timing-function: ease;">
+                                <div class="atropos atropos-rotate-touch" data-atropos="" data-atropos-perspective="1150">
+                                    <div class="atropos-scale">
+                                        <div class="atropos-rotate">
+                                            <div class="atropos-inner" data-atropos-offset="3"> 
+                                                <div class="gallery-box">
+                                                    <a href="images/services/8.jpg" data-group="lightbox-group-gallery-item-2" title="Lightbox gallery image title">
+                                                        <div class="position-relative gallery-image bg-dark-gray border-radius-6px overflow-hidden">
+                                                            <img src="images/services/8.jpg" alt="" data-no-retina="">
+                                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                                                                <i class="bi bi-camera icon-medium text-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px);"></span></div>
+                                        <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1);"></span></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end gallery item -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <footer class="p-0 fs-16 border-top border-color-extra-medium-gray">
+                <div class="container"> 
+                    <div class="row justify-content-center pt-6 sm-pt-40px">
+                        <!-- start footer column -->
+                        <div class="col-12 col-xl-4 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
+                            <a href="index.html" class="footer-logo mb-15px d-inline-block"><img src="logo_1.png" data-at2x="images/demo-corporate-logo-black@2x.png" alt=""></a>
+                            <p class="lh-30 w-90 xl-w-100 mx-lg-auto mx-xl-0">Gearing your company through an innovative strategy.</p>
+                            <div class="elements-social social-icon-style-02 mt-20px xs-mt-15px">
+                                <ul class="medium-icon dark">
+                                    <li class="my-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="my-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li> 
+                                    <li class="my-0"><a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
+                                    <li class="my-0"><a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end footer column -->
+                        <!-- start footer column -->
+
+                       
+                        <div class="col-12 col-xl-4 col-lg-4 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
+                            <span class="fs-17 fw-600 d-block text-dark-gray mb-5px">Company</span>
+                            <ul>
+                                <li><a href="demo-corporate-about.html">Who we are</a></li>
+                                <li><a href="demo-corporate-services.html">Our services</a><div class="bg-dark-gray fw-600 text-white lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-10 ms-10px d-inline-block align-middle">Hot</div></li>
+                                <li><a href="demo-corporate-customer-stories.html">Our clients</a></li>
+                                <li><a href="demo-corporate-contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <!-- end footer column -->
+                        <!-- start footer column -->
+                        <div class="col-12 col-xl-4 col-lg-4 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
+                            <span class="fs-17 fw-600 d-block text-dark-gray mb-5px">Services</span>
+                            <ul>
+                                <li><a href="demo-corporate-services-details.html">Passenger Lift</a></li>
+                                <li><a href="demo-corporate-services-details.html">Home Lift</a></li>
+                                <li><a href="demo-corporate-services-details.html">Hospital Lifts</a></li>
+                                <li><a href="demo-corporate-services-details.html">Hydraulic Lifts</a></li>
+                                <li><a href="demo-corporate-services-details.html">Structure Lifts</a></li>
+                            </ul>
+                        </div>
+                        <!-- end footer column -->
+                        <!-- start footer column -->
+                       
+                        <!-- end footer column -->
+                        <!-- start footer column -->
+                       
+                        <!-- end footer column -->                      
+                    </div>
+                    <div class="row justify-content-center align-items-center pt-2">
+                        <!-- start divider -->
+                        <div class="col-12">
+                            <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-light"></div>
+                        </div>
+                        <!-- end divider -->
+                        <!-- start copyright -->
+                        <div class="col-lg-12 pt-35px pb-35px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin"><p>&copy; 2025 Sukhoi Elevators is Proudly Powered by <a href="https://kalyantejahub.in/" target="_blank" class="text-dark-gray fw-600 text-decoration-line-bottom">KalyanTeja Inspired Web Solutions.</a></p></div>
+                        <!-- end copyright -->
+                        <!-- start footer menu -->
+                       
+                        <!-- end footer menu -->
+                    </div>
+                </div> 
+            </footer>
+            <!-- end footer -->
+            <!-- start scroll progress -->
+            <div class="scroll-progress d-none d-xxl-block">
+                <a href="#" class="scroll-top" aria-label="scroll">
+                    <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+                </a>
+            </div>
+            <!-- end scroll progress -->
+        </div>
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <!-- slider revolution core javaScript files -->
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- slider revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING -->
+        <!-- <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> -->
+
+        <!-- Slider's main "init" script -->
+        <script>
+            var tpj = jQuery;
+            var revapi7;
+            var $ = jQuery.noConflict();
+            tpj(document).ready(function () {
+                if (tpj("#demo-corporate-slider").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#demo-corporate-slider");
+                } else {
+                    revapi7 = tpj("#demo-corporate-slider").show().revolution({
+                        sliderType: "standard",
+                        /* sets the Slider's default timeline */
+                        delay: 9000,
+                        /* options are 'auto', 'fullwidth' or 'fullscreen' */
+                        sliderLayout: 'fullscreen',
+                        /* RESPECT ASPECT RATIO */
+                        autoHeight: 'off',
+                        /* options that disable autoplay */
+                        stopLoop: "off",
+                        stopAfterLoops: -1,
+                        stopAtSlide: -1,
+                        navigation: {
+                            keyboardNavigation: 'on',
+                            keyboard_direction: 'horizontal',
+                            mouseScrollNavigation: 'off',
+                            mouseScrollReverse: 'reverse',
+                            onHoverStop: 'off',
+                            arrows: {
+                                enable: true,
+                                style: 'hesperiden',
+                                rtl: false,
+                                hide_onleave: false,
+                                hide_onmobile: true,
+                                hide_under: 500,
+                                hide_over: 9999,
+                                hide_delay: 200,
+                                hide_delay_mobile: 1200,
+                                left: {
+                                    container: 'slider',
+                                    h_align: 'left',
+                                    v_align: 'center',
+                                    h_offset: 50,
+                                    v_offset: 0
+                                },
+                                right: {
+                                    container: 'slider',
+                                    h_align: 'right',
+                                    v_align: 'center',
+                                    h_offset: 50,
+                                    v_offset: 0
+                                }
+                            },
+                            bullets: {
+
+                                enable: true,
+                                style: 'hermes',
+                                tmp: '',
+                                direction: 'horizontal',
+                                rtl: false,
+
+                                container: 'layergrid',
+                                h_align: 'center',
+                                v_align: 'bottom',
+                                h_offset: 0,
+                                v_offset: 30,
+                                space: 12,
+
+                                hide_onleave: false,
+                                hide_onmobile: true,
+                                hide_under: 0,
+                                hide_over: 500,
+                                hide_delay: true,
+                                hide_delay_mobile: 500
+
+                            },
+                            touch: {
+                                touchenabled: 'on',
+                                touchOnDesktop: "on",
+                                swipe_threshold: 75,
+                                swipe_min_touches: 1,
+                                swipe_direction: 'horizontal',
+                                drag_block_vertical: true
+                            }
+                        },
+                        responsiveLevels: [1240, 1024, 768, 480],
+                        visibilityLevels: [1240, 1024, 768, 480],
+                        gridwidth: [1240, 1024, 768, 480],
+                        gridheight: [930, 850, 900, 850],
+                        /* Lazy Load options are "all", "smart", "single" and "none" */
+                        lazyType: "smart",
+                        spinner: "spinner0",
+                        parallax: {
+                            type: "scroll",
+                            origo: "slidercenter",
+                            speed: 400,
+                            levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 5],
+                        },
+                        shadow: 0,
+                        shuffle: "off",
+                        fullScreenAutoWidth: "on",
+                        fullScreenAlignForce: "on",
+                        fullScreenOffsetContainer: "nav",
+                        fullScreenOffset: "",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            nextSlideOnWindowFocus: "off",
+                            disableFocusListener: false,
+                        }
+                    });
+                }
+            }); /*ready*/
+        </script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script>
+	window.addEventListener("load", function () {
+  const whatsappIcon = document.getElementById("whatsapp-icon");
+  whatsappIcon.classList.add("shake");
+
+  setTimeout(() => {
+    whatsappIcon.classList.remove("shake");
+  }, 30000); // 30 seconds
+});
+
+
+window.onload = function() {
+  document.getElementById("popupModal").style.display = "flex";
+};
+
+function closeModal() {
+  document.getElementById("popupModal").style.display = "none";
+}
+
+</script>
+    </body>
+
+</html>
